@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>tablesgenerator</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/jquery-contextmenu/2.7.1/jquery.contextMenu.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-contextmenu/2.7.1/jquery.contextMenu.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-contextmenu/2.7.1/jquery.ui.position.js"></script>
+
+    <script type="text/javascript">
+        $(function () {
+            $.contextMenu({
+                selector: '.context-menu-one',
+                // trigger: 'left',
+                callback: function (key, options) {
+                    var m = "clicked: " + key;
+                    window.console && console.log(m) || alert(m);
+                },
+                items: {                    
+                    "fold1a": {
+                        "name": "調整字型",
+                        "items": {
+                            "fold1a-key1": { "name": "新細明體字型" },
+                            "fold1a-key2": { "name": "標楷體字型" },
+                            "fold1a-key3": { "name": "微軟正黑體字型" }
+                        }
+                    },
+                    copy: { name: "調整背景", },
+                    merge:{ name:"合併"},
+                    // copy: { name: "Copy", icon: "copy" },
+                    // "paste": { name: "Paste", icon: "paste" },
+                    // "delete": { name: "Delete", icon: "delete" },
+                    // "sep1": "---------",
+                    // "quit": {
+                    //     name: "Quit", icon: function () {
+                    //         return 'context-menu-icon context-menu-icon-quit';
+                    //     }
+                    // }
+                }
+            });
+
+            $('.context-menu-one').on('click', function (e) {
+                console.log('clicked', this);
+            })
+        });
+
+
+    </script>
+</head>
+
+<body>
+
+    <span >新增欄</span>
+    <span >新增列</span>
+    <br> <br>
+    <table border="1" class="context-menu-one">
+        <tbody >
+            <tr>
+                <th>欄位一</th>
+                <th>欄位一<br>
+                </th>
+                <th>欄位三</th>
+                <th>欄位三</th>
+            </tr>
+            <tr>
+                <td><p>
+                    <input type="checkbox" id="cbox1" value="first_checkbox">
+                    <label for="cbox1">This is the first checkbox</label>
+                  </p><br>
+                </td>
+                <td>2
+                </td>
+                <td rowspan="2">3<br>
+                </td>
+                <td>5
+                </td>
+            </tr>
+            <tr>
+                <td>萌芽悠遊網<br>
+                </td>
+                <td>1<br>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>

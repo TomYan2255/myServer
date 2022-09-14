@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "carbon-poet-630",
+  "private_key_id": "c699f8279b73278bbfe057c6228b2ea00279056e",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDZ/mbWEqq4Vni1\n0Uz3LjY3nSJ/CNh7e3/ufjymnHpm/mgJ3MnXfk67hrj5hYCN7ItAoaFZ2jZSj5Kb\n7oVVsBLdvWrOZ/TNU+SR9Mh9ZBGaAj1lr2tE3H2EszIhAvMdOiy4bkBl6we14axE\ne/5XN6nAfeBFaxEDnfgH9RCTcWNCPttc0SH/0LydAS/ouGNATWzeycpwl+AhuNJd\nNxT988E3Mhhefx4PrinddwFZaQwBXzg88JzO2Eyx9X2GtiQxOtqqXjo53wr57DHM\nxZfAVAWQwZJLskSbeySSx8bbzGySemi7HgPACPlRo3KvyM+x7mmc9fxDJSUBiOj6\nfWTPmOVJAgMBAAECggEAOIqmVLcxxa9UDuCzRFedo24j4OxD7j9ZrtvaUmK60tUA\n2jIEvlqaBETM3Jd2gRlOAx0JMzuIpIBtx/klZ1TMh+wV9GR9V/Z/DiZ+DBv0/su+\n7g2CVrGT8uPhyDMyKK4KpGmgVW8RKGlY28iHb0rWQkHD9m1vU89Y4oN7Yari0m7t\nrD3r/3arA0ijfa7MjNfc5qhHijE7yUgQPmf25ohw2v4nu4QZt/q0UIaqftzHy5nR\np8+JMq5auiuEd+79Andom/CTPKUMqCH3z/JvFzXXGBJjOSy2ZgsAfZ3jWoALBmZV\ncb+d5tACkCkX2+jEaPic8Delg8xmqMTOTBKXTqCTwwKBgQD0RVFwKYmlgBNwFzlp\n3IYBJhlHPIt1LtcWTn3hJxQmq4T2rtpPSArqO9cwFotdyd+ptvqQYyyfvpNzMOnQ\ntgLjFfQCQ7TiDJoLLNH5CZD96aBhEfRux94UoTAeGpY6HfAcfE1ykVfpTkf6dr5e\n+awrWYl9MGEwHlNmDZbrmjFD3wKBgQDkdhM8QbEVgJZErJYzccs0aaicSVMK7My7\nmy3HTQXSDQFUWnk+IiZ+TPqfTmXaIF8mpNi72mCDAgCwgIgv8pQ/Pupob9iuDliP\nTyhh9Yar98y1OhLmw/PUsf7GyU7fbfItdg/c2H0ZcC366i8Vmiz+pPHOK4h8FHin\n97kCOPu71wKBgBf8EnID8hsJB1+TODT3zUShnAvNmxfngIEVNfD8qFLfto+OPatZ\nNJEpTQjQveB4qPh+Gf5BbqlEyi+eVucCaCgqCKqMQV+MwzdjsD5WvSDhZrkBTVHv\nWBQIe7QJAkU0mVYCsowUT2B+Kj0imbCzrT8YbJKZRIG4CJJVtULvAfVbAoGBAIod\nZ9uRy0C4kB/MRrGrJbH1/l0dZvq/1bXFRpOqWM531knsuEd71dGdMBaHCsQntd5i\n4jQO/TG2UDxkN/DksgLaQlQI6fGv8pIQxNUT3eqw0CzvguXHqOz4/pGmuewRR8t8\nCHL23go261U5pmVk47a+eQCvCMAakCbbeBmD4YvZAoGAbQLcmz8qJZNeqGuqSIKv\nw+BtSlm8kc+eceMzTEs90ym8pl+m1eZXuEEnZWYFzpM/SdbXI1aECe7XOQG/R0JU\nrPeLOwD2ag1PpUvPYmIrD8Jw++KWMNSVwkIB+/GjFZcj8x7SLReaHmDdlMF0bm95\nCkxPBR8ODRoJJ7PFlsH602Q=\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-hbu9e@carbon-poet-630.iam.gserviceaccount.com",
+  "client_id": "102739577022602767076",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-hbu9e%40carbon-poet-630.iam.gserviceaccount.com"
+}
